@@ -1,0 +1,10 @@
+@font-face {
+  font-family: 'Carlista Buttery';
+  src: url('/path-to/Carlista Buttery.woff2') format('woff2'),
+       url('/path-to/Carlista Buttery.woff') format('woff'),
+       url('/path-to/Carlista Buttery.ttf')  format('truetype');
+}
+
+body {
+  font-family: 'Carlista Buttery', sans-serif;
+}

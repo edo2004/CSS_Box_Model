@@ -1,0 +1,68 @@
+@font-face {
+    font-family: 'Carlista Buttery';
+    src: url('./Carlista/Carlista\ Buttery.woff2') format('woff2'),
+         url('./Carlista/Carlista\ Buttery.woff') format('woff'),
+         url('./Carlista/Carlista\ Buttery.ttf')  format('truetype');
+  }
+
+body {
+    text-align: center;
+    background: rgb(78,73,170);
+    background: linear-gradient(90deg, rgba(78,73,170,1) 0%, rgba(111,111,201,1) 30%, rgba(0,212,255,1) 100%);
+    margin-top: 100px;
+}
+
+p {
+    text-shadow: rgba(9, 12, 31, 1) 3px 3px 10px;
+    color: white;
+
+}
+.content p:first-child {
+    font-size: 10px;
+}
+.content p:nth-child(2) {
+    font-size: 20px;
+}
+.content p:nth-child(3) {
+    font-size: 30px;
+}
+.content p:nth-child(4) {
+    font-size: 40px;
+}
+.content p:nth-child(5) {
+    font-size: 50px;
+}
+.content p:last-child {
+    font-size: 60px;
+}
+
+
+ 
+.rem p:first-child {
+    font-size: 5em;
+}
+.rem p:nth-child(2) {
+    font-size: 4em;
+}
+.rem p:nth-child(3) {
+    font-size: 3em;
+}
+.rem p:nth-child(4) {
+    font-size: 2em;
+}
+.rem p:last-child {
+    font-size: 1em;
+}
+
+.font p:first-child {
+    font-size: 3em;
+    font-family: 'Berkshire Swash', cursive;
+}
+.font p:nth-child(2) {
+    font-size: 3em;
+    font-family: 'Chango', cursive;
+}
+.font p:last-child {
+    font-size: 3em;
+    font-family: 'Carlista Buttery';
+}
